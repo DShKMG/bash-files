@@ -1,0 +1,10 @@
+0_xvz
+backup.sh
+compare.sh
+date.sh
+file1.txt
+foobar
+function.sh
+hello-world.sh
+if_else.sh
+items.txt

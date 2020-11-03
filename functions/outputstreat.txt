@@ -1,0 +1,6 @@
+Are UNIX and GNU are equal ?
+1
+Is 100 equal to 100 ?
+0
+100 = 50 ?
+1

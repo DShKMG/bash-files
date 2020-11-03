@@ -1,0 +1,12 @@
+total 0
+-rw-rw-rw- 1 ahmet ahmet   0 Sep 25 21:31 output.txt
+-rw-rw-rw- 1 ahmet ahmet 365 Sep 25 21:29 stdout.txt
+use > when command executed correctly
+use 2> when comand returns error
+use &> when both output is desired
+
+Note if we desire to not to show error or output message to user when a script is running
+
+No error - 2>
+No output - >
+Nothing to show - &>

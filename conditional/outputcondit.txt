@@ -1,0 +1,5 @@
+Total argument passed : 3
+Accepted Argument number is 2
+Passed arguments : 3 4 5
+Accepted arguments : 3 4
+Sum is 7 

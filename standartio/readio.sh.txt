@@ -1,0 +1,1 @@
+#!/bin/bash#File I/OFILENAME="inputoutput.txt"exec 3<>$FILENAMEwhile IFS= read -u 3 -r line	#fd can be 3 4 5 etc depends on the file description.do                 echo "$line"doneexec 3>&-

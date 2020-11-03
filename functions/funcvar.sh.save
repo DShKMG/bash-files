@@ -1,0 +1,13 @@
+#!/bin/bash
+
+a = 5
+b = 4
+
+function degistir(c) {
+	local a= 4
+	b = c
+	echo "Inside function a :$a ,b : $b "
+}
+
+echo "
+ function a :$a ,b : $b " 

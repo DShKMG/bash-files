@@ -1,0 +1,15 @@
+Code : ls foobar foob
+
+1 - > Command | stdout
+ls: cannot access 'foobar': No such file or directory
+
+It returns the written command output whether it returns error or result
+
+2 - 2> Command | stderr
+ls: cannot access 'foob': No such file or directory
+
+It returns the error message of the command
+
+3 - &> Command | Both
+
+It returns both error and output of the file

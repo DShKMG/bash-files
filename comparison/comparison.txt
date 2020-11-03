@@ -1,0 +1,10 @@
+Description	Numeric Comparison	String Comparison
+
+less than		-lt			<
+greater than		-gt			>
+equal			-eq			=
+not equal		-ne			!=
+less or equal		-le			N/A
+greater or equal	-ge			N/A
+
+Shell comparison example: [ 100 -eq 50 ]; echo $? [ "GNU" = "UNIX" ]; echo $?

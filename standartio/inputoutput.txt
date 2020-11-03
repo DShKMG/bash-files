@@ -1,0 +1,52 @@
+This document is about how to get input output stream
+
+< - INPUT stream for to use with function
+> - OUTPUT stream for to get output of function
+
+>> APPEND OUTPUT , does not overwrite, write at the end of the file
+<< APPEND INPUT , call from beginning to end of a file
+
+> is output stream where it saves a command to on the right side
+Example :
+
+ls > lsoutput.txt
+
+Saves list directory to "lsoutput.txt" text file.
+
+
+< is input stream where it inputs the commands/files inside the desired command
+It can be used as sending text files values inside a command such as
+
+sort < /etc/resolv.conf
+
+Sorts the values inside the resolv config file
+
+HERE EOF commands
+It is used to recursively call something. Synthax is below
+
+command <<HERE
+text1
+text2
+testN
+$varName
+HERE
+
+Example : Counts number of words inside a file
+
+ wc -w <<EOF
+> This is a test.
+> Apple juice.
+> 100% fruit juice and no added sugar, colour or preservative.
+> EOF
+
+output : 16
+
+
+For string use 
+command <<<$word
+
+Example : counts words of given argument
+
+wc -w <<< "This is a test."
+
+

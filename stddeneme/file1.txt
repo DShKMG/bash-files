@@ -1,0 +1,7 @@
+This is a file created by using output stream method of shell.
+It is done by an easy trick ">" which activates the output.
+By writing "cat > file1.txt" cat method reads the text
+and directs into the file1.txt.
+This file only close by terminate command shortcut which
+is "CTRL+D".
+######END OF THE LINE########
